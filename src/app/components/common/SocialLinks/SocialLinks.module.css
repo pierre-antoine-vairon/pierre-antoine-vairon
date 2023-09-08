@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  gap: 20px; /* Espacement entre les icônes */
+  justify-content: center;
+}
+
+.link {
+  color: #b9b9b9;
+  text-decoration: none; /* Retire le soulignement du lien */
+}
+
+.link:hover {
+  color: white;
+}
+
+.icon {
+  font-size: 24px; /* Ajustez cette valeur selon la taille souhaitée pour les icônes */
+}

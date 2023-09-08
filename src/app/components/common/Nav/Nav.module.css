@@ -1,0 +1,71 @@
+.navMenu {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 400px;
+  min-width: 200px;
+}
+
+.navMenu button {
+  background: transparent;
+  margin: 0 5px;
+  border: none;
+  color: #f6f4e6;
+  cursor: pointer;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu button:hover {
+  color: var(--green-color);
+}
+
+.navMenu .active {
+  color: var(--green-color);
+}
+
+/* Effet hover */
+/* Cacher le dot par défaut (mobile first) */
+.navMenu .dot {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Montrer le dot sur les écrans de bureau */
+  .navMenu .dot {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: var(--green-color);
+    border-radius: 50%;
+    opacity: 0;
+    transform: translateX(0);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .navMenu button:nth-child(1):hover ~ .dot {
+    transform: translateX(60px);
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+
+  .navMenu button:nth-child(2):hover ~ .dot {
+    transform: translateX(190px);
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+
+  .navMenu button:nth-child(3):hover ~ .dot {
+    transform: translateX(327px);
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,50 @@
+.main {
+  text-align: center;
+  text-align: left;
+}
+
+.bienvenue {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.h1 {
+  font-size: 1.8rem;
+  color: var(--green-color);
+}
+
+.h2 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+/* Pragraphs */
+.paragraphsContainer {
+  margin: auto;
+  max-width: 400px;
+  padding-top: 10%;
+}
+
+.paragraphMargin {
+  margin: 10% 0;
+}
+
+.h3 {
+  font-style: normal; /* Retire l'italique */
+  font-weight: bold; /* Ajoute le gras */
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  margin-top: 8px;
+  border-bottom: 1px solid #b9b9b9;
+  padding-bottom: 5px;
+  display: inline-block; /* Pour s'assurer que la bordure ne s'étire pas sur toute la largeur de l'élément parent */
+}
+
+.text {
+  font-size: 0.9em;
+  margin: 10px 0;
+  color: #b9b9b9;
+  text-align: justify;
+  word-wrap: break-word;
+}

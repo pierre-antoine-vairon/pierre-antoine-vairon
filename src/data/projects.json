@@ -1,0 +1,18 @@
+{
+  "projets": [
+    {
+      "index": "01",
+      "titre": "Module Login/Register",
+      "description": {
+        "generale": "Réalisation d'une application module pour la partie login/register avec React Native et Laravel.",
+        "technique": "J'ai dû réaliser le front-end pour les pages de connexion et d'inscription et accéder au cœur de l'application de manière sécurisée. J'ai également travaillé avec le backend en créant des routes, des API, des contrôleurs, des modèles et en les reliant à la base de données.",
+        "fonctionnelle": "L'application permet aux utilisateurs de se connecter et de s'inscrire. Une fois connectés, ils peuvent accéder aux fonctionnalités principales de l'application.",
+        "accueil": "Module de login/register pour une application avec React Native et Laravel, permettant une connexion sécurisée."
+      },
+      "dateDebut": "juin 2023",
+      "dateFin": "août 2023",
+      "tags": ["React Native", "Laravel", "API", "Backend", "Frontend"],
+      "image": null
+    }
+  ]
+}

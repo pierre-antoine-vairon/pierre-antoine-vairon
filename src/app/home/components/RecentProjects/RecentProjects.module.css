@@ -1,0 +1,29 @@
+.section {
+  padding: 2rem;
+  width: 100%;
+}
+
+.h1 {
+  font-size: 1.8rem;
+  height: 10%;
+  text-align: left;
+}
+
+.spanTitle {
+  color: var(--green-color);
+}
+
+/* Card */
+
+.cardContainer {
+  height: 80%;
+  margin: 40px 0;
+}
+
+/* Button */
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
