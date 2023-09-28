@@ -1,15 +1,51 @@
 .section {
   height: 100vh;
-  padding: 2rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .h1 {
   font-size: 2em;
-  height: 10%;
   text-align: left;
 }
-
 .spanTitle {
   color: var(--green-color);
+}
+
+.customList li {
+  list-style-type: none;
+}
+
+.button {
+  margin: auto auto 0 auto;
+}
+
+/* Style dot + Line */
+
+.titlesContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Pour positionner correctement la ligne et le point */
+}
+
+.greenDot {
+  position: absolute;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%; /* Pour rendre le dot rond */
+  margin-bottom: 5px; /* Espace entre le dot et la ligne */
+}
+
+.whiteLine {
+  position: absolute;
+  left: 14px;
+  top: 85px;
+  width: 2px;
+  height: 50%;
+  background-color: white;
+  flex-grow: 1; /* Pour faire en sorte que la ligne prenne tout l'espace disponible */
 }
