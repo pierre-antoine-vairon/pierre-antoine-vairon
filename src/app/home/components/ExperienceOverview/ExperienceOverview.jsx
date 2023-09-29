@@ -24,7 +24,7 @@ export default function ExperienceOverview() {
           <h3>{latestExperience.company}</h3>
           <h4>{latestExperience.technologies.join(' - ')}</h4>
         </div>
-        <div>
+        <div className={styles.listContainer}>
           <div className={styles.ulContainer}>
             <p>Front-end :</p>
             <ul className={styles.customList}>
@@ -33,7 +33,6 @@ export default function ExperienceOverview() {
               ))}
             </ul>
           </div>
-
           <div className={styles.ulContainer}>
             <p>Back-end :</p>
             <ul className={styles.customList}>

@@ -6,6 +6,15 @@
   position: relative;
 }
 
+.titlesContainer {
+  margin-left: 10%;
+  padding-top: 10%;
+}
+
+.titlesContainer p {
+  padding-bottom: 20px;
+}
+
 .h1 {
   font-size: 2em;
   text-align: left;
@@ -22,6 +31,15 @@
   margin: auto auto 0 auto;
 }
 
+.listContainer {
+  padding-top: 15%;
+  margin-left: 10%;
+}
+
+.ulContainer {
+  padding: 20px 0;
+}
+
 /* Style dot + Line */
 
 .titlesContainer {
@@ -33,9 +51,10 @@
 .greenDot {
   position: absolute;
   left: 10px;
+  top: 96px;
   width: 10px;
   height: 10px;
-  background-color: green;
+  background-color: var(--green-color);
   border-radius: 50%; /* Pour rendre le dot rond */
   margin-bottom: 5px; /* Espace entre le dot et la ligne */
 }
@@ -43,9 +62,9 @@
 .whiteLine {
   position: absolute;
   left: 14px;
-  top: 85px;
+  top: 120px;
   width: 2px;
-  height: 50%;
+  height: 60%;
   background-color: white;
   flex-grow: 1; /* Pour faire en sorte que la ligne prenne tout l'espace disponible */
 }

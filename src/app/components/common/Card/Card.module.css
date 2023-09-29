@@ -20,7 +20,7 @@
 .description {
   width: 90%;
   overflow: hidden;
-  font-size: 0.6em;
+  font-size: 0.8em;
   line-height: 1.5;
   color: #dddddd;
 }
@@ -35,6 +35,6 @@
   font-size: 0.6em;
   font-weight: bold;
   background-color: #dddddd;
-  color: var(--test-color);
+  color: var(--background-color);
   padding: 3px;
 }
