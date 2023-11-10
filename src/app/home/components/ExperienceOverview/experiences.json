@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Développeur Full Stack mobile",
+    "date": "Juin 2023 - Aout 2023",
+    "company": "Freelance",
+    "technologies": ["React Native", "Laravel"],
+    "frontend": [
+      "Conception et design des écrans d'authentifications.",
+      "Appel Api sécurisé avec Axios.",
+      "Routage avec React Navigation."
+    ],
+    "backend": [
+      "Création base de données.",
+      "Développement des routes sécurisées de l'API",
+      "Développement des Models, Controllers, Providers, etc."
+    ]
+  },
+  {}
+]

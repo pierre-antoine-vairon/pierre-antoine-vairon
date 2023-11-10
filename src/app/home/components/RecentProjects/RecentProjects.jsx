@@ -1,14 +1,14 @@
 // Data
-import projects from "./recents-projects.json";
+import projects from './recents-projects.json';
 // Components
-import Card from "../../../components/common/Card/Card";
-import HomeButton from "../../../components/common/button/HomeButton";
+import Card from '../../../components/common/Card/Card';
+import HomeButton from '../../../components/common/button/HomeButton';
 // Style
-import styles from "./RecentProjects.module.css";
+import styles from './RecentProjects.module.css';
 
-export default function RecentProjects() {
+export default function RecentProjects({ className }) {
   return (
-    <section className={styles.section}>
+    <section className={`${styles.section} ${className}`}>
       <h1 className={styles.h1}>
         PROJETS <span className={styles.spanTitle}>RÉCENTS</span>
       </h1>
@@ -22,9 +22,11 @@ export default function RecentProjects() {
           />
         ))}
       </div>
-      <div className={styles.buttonContainer}>
-        <HomeButton text={"VOIR TOUS MES PROJETS"} />
-      </div>
+      <HomeButton
+        text={'VOIR TOUS MES PROJETS'}
+        href="/projets"
+        className={styles.link}
+      />
     </section>
   );
 }

@@ -1,15 +1,111 @@
 .section {
-  height: 100vh;
-  padding: 2rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.titlesContainer {
+  margin-left: 10%;
+  padding-top: 10%;
+}
+
+.titlesContainer p {
+  padding-bottom: 20px;
 }
 
 .h1 {
-  font-size: 2em;
-  height: 10%;
+  font-size: 2rem;
   text-align: left;
 }
-
 .spanTitle {
   color: var(--green-color);
+}
+
+.customList li {
+  list-style-type: none;
+}
+
+.link {
+  margin: auto auto 0 auto;
+}
+
+.listContainer {
+  padding-top: 15%;
+  margin-left: 10%;
+}
+
+.ulContainer {
+  padding: 20px 0;
+}
+
+/* Style dot + Line */
+
+.titlesContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Pour positionner correctement la ligne et le point */
+}
+
+.greenDot {
+  position: absolute;
+  left: 10px;
+  top: 96px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--green-color);
+  border-radius: 50%; /* Pour rendre le dot rond */
+  margin-bottom: 5px; /* Espace entre le dot et la ligne */
+}
+
+.whiteLine {
+  position: absolute;
+  left: 14px;
+  top: 120px;
+  width: 2px;
+  height: 60%;
+  background-color: white;
+  flex-grow: 1; /* Pour faire en sorte que la ligne prenne tout l'espace disponible */
+}
+
+@media (max-width: 1023px) {
+  .greenDot {
+    left: 25%;
+  }
+  .whiteLine {
+    left: 25.5%;
+  }
+}
+
+/* MEDIA QUERIES TABLETTE */
+
+@media (max-width: 1023px) {
+  .section {
+    padding: 10% 0;
+  }
+  .h1 {
+    text-align: center;
+  }
+  .titlesContainer,
+  .listContainer {
+    margin-left: 15%;
+    padding-top: 7%;
+  }
+  .listContainer {
+    margin-bottom: 7%;
+  }
+  .greenDot {
+    position: absolute;
+    left: 4%;
+    top: 19%;
+  }
+  .whiteLine {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    width: 2px;
+    height: 55%;
+    background-color: white;
+    flex-grow: 1; /* Pour faire en sorte que la ligne prenne tout l'espace disponible */
+  }
 }

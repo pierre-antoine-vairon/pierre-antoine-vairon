@@ -1,11 +1,12 @@
 .section {
-  padding: 2rem;
   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .h1 {
-  font-size: 1.8rem;
-  height: 10%;
+  font-size: 2rem;
   text-align: left;
 }
 
@@ -16,14 +17,26 @@
 /* Card */
 
 .cardContainer {
-  height: 80%;
-  margin: 40px 0;
+  padding-top: 7%;
+  width: 100%;
 }
 
 /* Button */
 
-.buttonContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.link {
+  margin: auto auto 0 auto;
+}
+
+/* MEDIA QUERIES TABLETTE */
+
+@media (max-width: 1023px) {
+  .section {
+    padding: 10% 0;
+  }
+  .h1 {
+    text-align: center;
+  }
+  .cardContainer {
+    padding-bottom: 7%;
+  }
 }

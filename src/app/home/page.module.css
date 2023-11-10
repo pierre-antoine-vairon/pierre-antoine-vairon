@@ -1,22 +1,67 @@
+/* page.module.css */
+
 .main {
   color: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
+  padding: 5% 10% 5% 10%;
+  height: 100vh;
 }
 
 .section1 {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 3rem;
-  max-width: 500px;
+  width: 50%;
 }
+
 .section2 {
-  display: flex;
   flex-direction: column;
-  max-width: 500px;
+  width: 50%;
+  padding-left: 2rem;
+}
+
+/* Cache tous les sous-composants par défaut */
+.section2 > * {
+  display: none;
+}
+
+/* Affiche le composant correspondant en fonction de l'activeTab */
+[data-active-tab='projects'] .section2 > .recent-projects {
+  display: flex;
+}
+
+[data-active-tab='experience'] .section2 > .experience-overview {
+  display: flex;
+}
+
+[data-active-tab='contact'] .section2 > .contact {
+  display: flex;
+}
+
+/* Pour les écrans de taille tablette/mobile, montrez tous les sous-composants */
+@media (max-width: 1023px) {
+  .main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .section1 {
+    margin-bottom: 10%;
+  }
+  .section2 {
+    padding-left: 0;
+  }
+
+  .section1,
+  .section2 {
+    width: 100%;
+  }
+
+  .section2 > * {
+    display: flex;
+    height: auto;
+  }
 }
 
 @media (orientation: landscape) {
