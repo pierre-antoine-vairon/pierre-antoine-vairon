@@ -1,17 +1,16 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --primary-color: #0e1c26;
-  --background-color: RGB(31, 31, 33);
+  --test-color: RGB(31, 31, 33);
   --secondary-color: #2a454b;
   --card-color: #294861;
   --green-color: rgba(42, 233, 140, 1);
   --green-color-hover: rgba(42, 233, 140, 0.7);
-  --text-color: #efe0e0;
 }
 
 * {
@@ -26,12 +25,7 @@ body {
 }
 
 body {
-  background: var(--background-color);
-}
-
-p,
-li {
-  color: var(--text-color);
+  background: var(--test-color);
 }
 
 a {

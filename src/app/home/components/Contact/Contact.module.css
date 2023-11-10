@@ -1,38 +1,15 @@
 .section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-}
-
-.section h4,
-.section p {
-  text-align: center;
-}
-
-.section h4 {
-  margin-bottom: 10px;
-}
-
-.link,
-.link:visited {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: var(--text-color);
+  height: 100vh;
+  padding: 2rem;
+  width: 100%;
 }
 
 .h1 {
   font-size: 2em;
   height: 10%;
+  text-align: left;
 }
 
 .spanTitle {
   color: var(--green-color);
-}
-
-.section p > svg,
-.section a > svg {
-  margin-right: 10px; /* Espacement entre l'icône et le texte */
 }

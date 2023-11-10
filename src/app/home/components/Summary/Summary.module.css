@@ -10,17 +10,18 @@
 }
 
 .h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--green-color);
 }
 
 .h2 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin: 10px 0;
 }
 
 /* Pragraphs */
 .paragraphsContainer {
+  margin: auto;
   max-width: 400px;
   padding-top: 10%;
 }
@@ -43,6 +44,7 @@
 .text {
   font-size: 0.9em;
   margin: 10px 0;
+  color: #b9b9b9;
   text-align: justify;
   word-wrap: break-word;
 }

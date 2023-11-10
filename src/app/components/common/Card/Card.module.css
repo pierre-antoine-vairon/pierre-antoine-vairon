@@ -2,12 +2,13 @@
   width: 100%;
   min-width: 300px;
   height: 150px;
+  background-color: red;
   margin: 10px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 10px;
-  background-color: rgb(38, 38, 41);
+  background-color: rgb(32, 32, 34);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -20,7 +21,7 @@
 .description {
   width: 90%;
   overflow: hidden;
-  font-size: 0.8em;
+  font-size: 0.6em;
   line-height: 1.5;
   color: #dddddd;
 }
@@ -35,6 +36,6 @@
   font-size: 0.6em;
   font-weight: bold;
   background-color: #dddddd;
-  color: var(--background-color);
+  color: var(--test-color);
   padding: 3px;
 }

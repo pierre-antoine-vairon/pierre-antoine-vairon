@@ -1,4 +1,0 @@
-{
-  "parser": "next/babel",
-  "extends": ["next", "next/core-web-vitals"]
-}

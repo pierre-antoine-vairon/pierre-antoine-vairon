@@ -1,18 +1,18 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 // Style
-import styles from './page.module.css';
+import styles from "./page.module.css";
 //Components
-import Summary from './components/Summary/Summary';
-import Nav from '../components/common/Nav/Nav';
-import SocialLinks from '../components/common/SocialLinks/SocialLinks';
-import RecentProjects from './components/RecentProjects/RecentProjects';
-import ExperienceOverview from './components/ExperienceOverview/ExperienceOverview';
-import Contact from './components/Contact/Contact';
+import Summary from "./components/Summary/Summary";
+import Nav from "../components/common/Nav/Nav";
+import SocialLinks from "../components/common/SocialLinks/SocialLinks";
+import RecentProjects from "./components/RecentProjects/RecentProjects";
+import ExperienceOverview from "./components/ExperienceOverview/ExperienceOverview";
+import Contact from "./components/Contact/Contact";
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState('projects');
+  const [activeTab, setActiveTab] = useState("projects");
 
   return (
     <main className={styles.main}>
@@ -22,9 +22,9 @@ export default function Home() {
         <SocialLinks />
       </section>
       <section className={styles.section2}>
-        {activeTab === 'projects' && <RecentProjects />}
-        {activeTab === 'experience' && <ExperienceOverview />}
-        {activeTab === 'contact' && <Contact />}
+        <RecentProjects />
+        <ExperienceOverview />
+        <Contact />
       </section>
     </main>
   );

@@ -1,7 +1,8 @@
 .button {
   background: transparent;
   color: var(--green-color);
-  min-width: 300px;
+  width: 80%;
+  max-width: 400px;
   padding: 20px;
   border: 1px solid var(--green-color);
 }
