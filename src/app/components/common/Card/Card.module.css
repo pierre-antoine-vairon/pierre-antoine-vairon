@@ -1,9 +1,6 @@
 .cardContainer {
   width: 100%;
-  min-width: 300px;
-  max-width: 500px;
   height: 150px;
-  margin: 10px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -38,12 +35,4 @@
   background-color: #dddddd;
   color: var(--background-color);
   padding: 3px;
-}
-
-/* MEDIA QUERIES TABLETTE */
-
-@media (max-width: 1023px) {
-  .cardContainer {
-    margin: 10px auto;
-  }
 }

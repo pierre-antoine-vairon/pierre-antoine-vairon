@@ -2,7 +2,9 @@
   {
     "index": "01",
     "title": "Module Login/Register",
-    "description": "Module de login/register pour une application avec React Native et Laravel, permettant une connexion sécurisée.",
+    "description": {
+      "accueil": "Module de login/register pour une application avec React Native et Laravel, permettant une connexion sécurisée."
+    },
     "dateDebut": "juin 2023",
     "dateFin": "août 2023",
     "tags": ["React Native", "Laravel", "API", "Backend", "Frontend"]
@@ -10,7 +12,9 @@
   {
     "index": "02",
     "title": "Plateforme de Blogging",
-    "description": "Création d'une plateforme de blogging dynamique avec CMS intégré, permettant aux utilisateurs de publier et de gérer leur contenu.",
+    "description": {
+      "accueil": "Création d'une plateforme de blogging dynamique avec CMS intégré, permettant aux utilisateurs de publier et de gérer leur contenu."
+    },
     "dateDebut": "janvier 2023",
     "dateFin": "mars 2023",
     "tags": ["PHP", "MySQL", "CMS", "Backend", "Frontend"]
@@ -18,7 +22,9 @@
   {
     "index": "03",
     "title": "Application Météo",
-    "description": "Application mobile offrant des prévisions météo en temps réel, des alertes et des informations sur le climat local.",
+    "description": {
+      "accueil": "Application mobile offrant des prévisions météo en temps réel, des alertes et des informations sur le climat local."
+    },
     "dateDebut": "avril 2023",
     "dateFin": "mai 2023",
     "tags": ["React Native", "API", "Frontend", "Mobile"]
@@ -26,7 +32,9 @@
   {
     "index": "04",
     "title": "E-commerce Boutique",
-    "description": "Site e-commerce avec panier intégré, gestion des stocks, et paiement sécurisé pour une startup de mode.",
+    "description": {
+      "accueil": "Site e-commerce avec panier intégré, gestion des stocks, et paiement sécurisé pour une startup de mode."
+    },
     "dateDebut": "septembre 2023",
     "dateFin": "décembre 2023",
     "tags": [

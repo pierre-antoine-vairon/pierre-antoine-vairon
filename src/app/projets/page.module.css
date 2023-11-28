@@ -1,0 +1,48 @@
+/* page.module.css */
+
+.pageContainer {
+  padding: 4%;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.pageTitle {
+  color: var(--green-color);
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: var(--green-color);
+  height: 30px;
+  width: 30px;
+}
+
+.cardContainer {
+  width: 300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.cardBorder {
+  border-radius: 20px;
+}
+
+.cardContainer:hover {
+  transform: scale(1.05);
+}

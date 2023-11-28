@@ -16,9 +16,15 @@
 
 /* Card */
 
-.cardContainer {
-  padding-top: 7%;
+.cardsContainer {
   width: 100%;
+  padding: 4% 0;
+}
+
+.cardContainer {
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 500px;
 }
 
 /* Button */
@@ -37,6 +43,6 @@
     text-align: center;
   }
   .cardContainer {
-    padding-bottom: 7%;
+    margin: 10px auto;
   }
 }

@@ -4,15 +4,35 @@
       "index": "01",
       "titre": "Module Login/Register",
       "description": {
-        "generale": "Réalisation d'une application module pour la partie login/register avec React Native et Laravel.",
+        "accueil": "Module de login/register pour une application avec React Native et Laravel, permettant une connexion sécurisée.",
         "technique": "J'ai dû réaliser le front-end pour les pages de connexion et d'inscription et accéder au cœur de l'application de manière sécurisée. J'ai également travaillé avec le backend en créant des routes, des API, des contrôleurs, des modèles et en les reliant à la base de données.",
-        "fonctionnelle": "L'application permet aux utilisateurs de se connecter et de s'inscrire. Une fois connectés, ils peuvent accéder aux fonctionnalités principales de l'application.",
-        "accueil": "Module de login/register pour une application avec React Native et Laravel, permettant une connexion sécurisée."
+        "fonctionnelle": "L'application permet aux utilisateurs de se connecter et de s'inscrire. Une fois connectés, ils peuvent accéder aux fonctionnalités principales de l'application."
       },
       "dateDebut": "juin 2023",
       "dateFin": "août 2023",
       "tags": ["React Native", "Laravel", "API", "Backend", "Frontend"],
-      "image": null
+      "images": [
+        {
+          "url": "/chemin/vers/image1.jpg",
+          "description": "Description de la première image"
+        },
+        {
+          "url": "/chemin/vers/image2.jpg",
+          "description": "Description de la deuxième image"
+        }
+      ]
+    },
+    {
+      "index": "02",
+      "titre": "Plateforme de Blogging",
+      "description": {
+        "accueil": "Création d'une plateforme de blogging dynamique avec CMS intégré, permettant aux utilisateurs de publier et de gérer leur contenu.",
+        "technique": "Description technique factice du projet 2.",
+        "fonctionnelle": "Description fonctionnelle factice du projet 2."
+      },
+      "dateDebut": "janvier 2023",
+      "dateFin": "mars 2023",
+      "tags": ["PHP", "MySQL", "CMS", "Backend", "Frontend"]
     }
   ]
 }

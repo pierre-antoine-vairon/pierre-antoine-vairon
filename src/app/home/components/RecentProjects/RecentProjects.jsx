@@ -12,14 +12,16 @@ export default function RecentProjects({ className }) {
       <h1 className={styles.h1}>
         PROJETS <span className={styles.spanTitle}>RÉCENTS</span>
       </h1>
-      <div className={styles.cardContainer}>
+      <div className={styles.cardsContainer}>
         {projects.slice(-3).map((project) => (
-          <Card
-            key={project.index}
-            title={project.title}
-            description={project.description}
-            tags={project.tags}
-          />
+          <div key={project.index} className={styles.cardContainer}>
+            <Card
+              title={project.title}
+              description={project.description}
+              tags={project.tags}
+              customClass={styles.cardAdptativeContainer}
+            />
+          </div>
         ))}
       </div>
       <HomeButton
