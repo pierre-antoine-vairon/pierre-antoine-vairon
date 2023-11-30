@@ -3,6 +3,7 @@
     {
       "index": "01",
       "titre": "Intégrer une maquette en site web avec HTML & CSS",
+      "github": "https://github.com/pierre-antoine-vairon/Booki_vairon_pierre-antoine",
       "date": "août 2023",
       "description": "Intégrer l'interface d'un site avec du code uniquement en HTML et CSS, sans utilisation de framework, en respectant les spécifications et contraintes techniques",
       "tags": ["HTML", "CSS", "Front-end", "Responsive"],

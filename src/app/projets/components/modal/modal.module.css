@@ -10,26 +10,79 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-y: auto;
+}
+
+.githubLink {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 50px auto;
+  color: antiquewhite;
+}
+
+.githubLink a {
+  margin-left: 5px;
+  text-decoration: underline;
+  color: antiquewhite;
+  cursor: pointer;
 }
 
 .modal {
-  background: #fff;
-  padding: 20px;
+  background-color: var(--background-color);
+  padding: 10px 20px 20px 20px;
   max-width: 600px;
   width: 100%;
   position: relative;
+  overflow-y: auto; /* Ajoutez cette ligne */
+  max-height: 90vh; /* Ajoutez cette ligne */
 }
 
 .modalHeader {
   display: flex;
   justify-content: flex-end;
+  margin: 0;
 }
 
 .modalHeader span {
   cursor: pointer;
   font-size: 24px;
+  color: antiquewhite;
 }
 
-.modalContent {
-  margin-top: 20px;
+.modalOverlay h1,
+.modalOverlay h2,
+.modalOverlay h3 {
+  font-size: 15px;
+  color: antiquewhite;
+}
+
+.modalContent p {
+  display: flex;
+  align-items: flex-end;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.display {
+  display: flex;
+  align-items: baseline;
+}
+
+.modalContent div {
+  margin: 40px 0;
+}
+
+.tags {
+  display: flex;
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+.modalContent ul {
+  margin-top: 10px;
+}
+
+.modalContent li {
+  font-size: 13px;
+  margin-left: 30px;
 }
