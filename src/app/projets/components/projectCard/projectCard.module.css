@@ -1,32 +1,41 @@
 .cardContainer {
-  width: 100%;
   min-height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 10px;
+  padding: 15px;
   background-color: rgb(38, 38, 41);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  border-radius: 20px;
+}
+
+.cardContainer:hover {
+  transform: scale(1.05);
 }
 
 .title {
   font-size: 1em;
   font-weight: 500;
   color: whitesmoke;
+  padding: 10px 0;
 }
 
 .description {
-  width: 90%;
   overflow: hidden;
   font-size: 0.8em;
   line-height: 1.5;
   color: #dddddd;
+  padding: 10px 0;
 }
 
 .tagContainer {
   display: flex;
   gap: 5px;
   flex-wrap: wrap;
+  padding: 5px 0;
 }
 
 .tag {
@@ -40,6 +49,13 @@
 /* Image */
 
 .imageContainer {
+  width: 100%;
+  min-height: 130px;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
 }

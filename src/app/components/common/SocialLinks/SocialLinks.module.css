@@ -2,6 +2,7 @@
   display: flex;
   gap: 20px; /* Espacement entre les icônes */
   justify-content: center;
+  margin: 20px 0;
 }
 
 .link {

@@ -17,7 +17,7 @@ export default function RecentProjects({ className }) {
           <div key={project.index} className={styles.cardContainer}>
             <Card
               title={project.title}
-              description={project.description}
+              description={project.description.accueil}
               tags={project.tags}
               customClass={styles.cardAdptativeContainer}
             />

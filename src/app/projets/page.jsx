@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 //components
-import Modal from './components/modal';
-import Card from '../components/common/Card/Card';
+import Modal from './components/modal/modal';
+import ProjectCard from './components/projectCard/projectCard';
 //data
 import projectsData from '../../data/projects.json';
 //style
@@ -32,17 +32,19 @@ export default function ProjetsPage() {
         </Link>
       </header>
       <div className={styles.projectsContainer}>
-        {projectsData.projets.map((project) => (
-          <div key={project.index} className={styles.cardContainer}>
-            <Card
+        {projectsData.projets.map((project) => {
+          return (
+            <ProjectCard
+              key={project.index}
+              image={project.imageAccueil}
               title={project.titre}
               description={project.description}
               tags={project.tags}
               onClick={() => openModal(project)}
               customClass={styles.cardBorder}
             />
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       {selectedProject && (

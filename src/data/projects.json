@@ -2,37 +2,33 @@
   "projets": [
     {
       "index": "01",
-      "titre": "Module Login/Register",
-      "description": {
-        "accueil": "Module de login/register pour une application avec React Native et Laravel, permettant une connexion sécurisée.",
-        "technique": "J'ai dû réaliser le front-end pour les pages de connexion et d'inscription et accéder au cœur de l'application de manière sécurisée. J'ai également travaillé avec le backend en créant des routes, des API, des contrôleurs, des modèles et en les reliant à la base de données.",
-        "fonctionnelle": "L'application permet aux utilisateurs de se connecter et de s'inscrire. Une fois connectés, ils peuvent accéder aux fonctionnalités principales de l'application."
-      },
-      "dateDebut": "juin 2023",
-      "dateFin": "août 2023",
-      "tags": ["React Native", "Laravel", "API", "Backend", "Frontend"],
-      "images": [
-        {
-          "url": "/chemin/vers/image1.jpg",
-          "description": "Description de la première image"
-        },
-        {
-          "url": "/chemin/vers/image2.jpg",
-          "description": "Description de la deuxième image"
-        }
+      "titre": "Intégrer une maquette en site web avec HTML & CSS",
+      "date": "août 2023",
+      "description": "Intégrer l'interface d'un site avec du code uniquement en HTML et CSS, sans utilisation de framework, en respectant les spécifications et contraintes techniques",
+      "tags": ["HTML", "CSS", "Front-end", "Responsive"],
+      "fonctionnalités": [
+        "Fonction recherce, champ de saisie pouvant être éditer par l'utilisateur, formulaire de recherche (non fonctionnelle)",
+        "Cartes cliquable d'hébergements et d'activités",
+        "Filtres de recherche, avec effet au survol, non fonctionnels",
+        "Liens Hébergements et Activités avec point d'ancrage dans la page"
+      ],
+      "étapes": [
+        "Découper la maquette",
+        "Intégrer le header",
+        "Ajouter le formulaire de recherche",
+        "Ajouter les filtres",
+        "Réaliser cards Hébergement avec conteneur",
+        "Réaliser cards Activités, affiché en mosaïque",
+        "Mettre en place le responsive design"
+      ],
+      "imageAccueil": "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/booki-accueil-zGCanseVoUm0frZnmlPTHbtyCqASkZ.png",
+      "imageIllustration": [
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/booki-screen-global-P9CAMCqGNrurYcRuZpKesNeTccK8Js.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/booki-header-8x88YTfWN3YPxkFn6WwzsfU9CI9knq.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/booki-hebergement-yrBUQDhPI5RpBbKNkoDtlkIRE4r2WH.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/booki-activite-O4J3BJG0ga3flQVggMRNE1St8aU0N9.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/booki-footer-niJCxgcjZ6eQJ3l9QIBkbXcBGzeg88.png"
       ]
-    },
-    {
-      "index": "02",
-      "titre": "Plateforme de Blogging",
-      "description": {
-        "accueil": "Création d'une plateforme de blogging dynamique avec CMS intégré, permettant aux utilisateurs de publier et de gérer leur contenu.",
-        "technique": "Description technique factice du projet 2.",
-        "fonctionnelle": "Description fonctionnelle factice du projet 2."
-      },
-      "dateDebut": "janvier 2023",
-      "dateFin": "mars 2023",
-      "tags": ["PHP", "MySQL", "CMS", "Backend", "Frontend"]
     }
   ]
 }
