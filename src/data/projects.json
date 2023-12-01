@@ -4,7 +4,6 @@
       "index": "01",
       "titre": "Intégrer une maquette en site web avec HTML & CSS",
       "github": "https://github.com/pierre-antoine-vairon/Booki_vairon_pierre-antoine",
-      "date": "août 2023",
       "description": "Intégrer l'interface d'un site avec du code uniquement en HTML et CSS, sans utilisation de framework, en respectant les spécifications et contraintes techniques",
       "tags": ["HTML", "CSS", "Front-end", "Responsive"],
       "fonctionnalités": [
@@ -29,6 +28,45 @@
         "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/booki-hebergement-yrBUQDhPI5RpBbKNkoDtlkIRE4r2WH.png",
         "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/booki-activite-O4J3BJG0ga3flQVggMRNE1St8aU0N9.png",
         "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/booki-footer-niJCxgcjZ6eQJ3l9QIBkbXcBGzeg88.png"
+      ]
+    },
+    {
+      "index": "02",
+      "titre": "Dynamisez une page web avec des animations (Sass)",
+      "github": "",
+      "description": "Transformer une maquette en interface web avec un code exclusivement en HTML et CSS, de manière responsive. Intégration d'animations pour une interaction utilisateur optimale.",
+      "tags": ["HTML", "CSS", "Sass", "Front-end", "Responsive"],
+      "fonctionnalités": [
+        "Courte présentation du fonctionnement du site sur la page d'accueil.",
+        "Section responsive avec les 4 menus sous forme de cartes sur la page d'accueil, redirigeant l'utilisateur vers la page du menu au clic.",
+        "Chaque page de menu contient le menu d'un restaurant.",
+        "Footer identique sur toutes les pages avec un bouton Contact redirigeant vers une adresse mail.",
+        "Header présent sur toutes les pages, contenant le logo sur la page d'accueil et un bouton de retour vers la page d'accueil sur les pages de menu.",
+        "Effets graphiques au survol des boutons principaux avec éclaircissement de la couleur de fond et visibilité accrue de l'ombre portée.",
+        "Bouton 'J’aime' en forme de cœur se remplit progressivement au clic ou survol (sur desktop).",
+        "Animation de chargement (Loading spinner) sur la page d'accueil pendant 1 à 3 secondes à l'arrivée.",
+        "Animation d'apparition progressive des plats sur les pages de menu avec léger décalage dans le temps.",
+        "Ajout de plats à la commande avec coche animée (clic ou survol) et effet de remplissage progressif au clic sur le bouton 'J’aime'."
+      ],
+      "étapes": [
+        "Découper la maquette",
+        "Intégrer la version mobile de la page d’accueil",
+        "Ajouter les animations à la page d’accueil",
+        "Réaliser le responsive de la page d’accueil",
+        "Intégrer le HTML et le CSS d’une page de restaurant",
+        "Copier la page de restaurant et adaptez le contenu aux restaurants restants",
+        "Revue complète du projet"
+      ],
+      "imageAccueil": "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_accueil-KHct3Yl2Ojgp892k1PI2o2fjBclAyu.png",
+      "imageIllustration": [
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_full_desktop-O0B4BPZDOApuMCXfvZRMx9n8ppLl2F.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_full_mobile-KBb4sMP4c2r6GTbSvvFRjtCCEUOpOM.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_restaurant_desktop-bbCi42Kzl59CDyIJ4HzKyxZnNAFmCR.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_restaurant_mobile-EudAS1quA7qi54R7UpL1Rgtj7cEVj8.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_button_plat-gZ5Fh3GbJmteHzhSHlAvz8QxWdwDXQ.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_button-7F0GaAl6HmGtFlC54IXlbfqjkzYQ84.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_like-s0liQDnoEu6xZXeAtB8rP50isG67iM.png",
+        "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_spinner-kJHNCWmomylWAot0BVdUYw6NJZ4nl5.png"
       ]
     }
   ]
