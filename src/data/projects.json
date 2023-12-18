@@ -33,7 +33,7 @@
     {
       "index": "02",
       "titre": "Dynamisez une page web avec des animations (Sass)",
-      "github": "",
+      "github": "https://github.com/pierre-antoine-vairon/OCR-Projet-P3--Oh-My-Food--SASS-Animations",
       "description": "Transformer une maquette en interface web avec un code exclusivement en HTML et CSS, de manière responsive. Intégration d'animations pour une interaction utilisateur optimale.",
       "tags": ["HTML", "CSS", "Sass", "Front-end", "Responsive"],
       "fonctionnalités": [
@@ -67,6 +67,76 @@
         "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_button-7F0GaAl6HmGtFlC54IXlbfqjkzYQ84.png",
         "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_like-s0liQDnoEu6xZXeAtB8rP50isG67iM.png",
         "https://qxit4w7mi3ha9vno.public.blob.vercel-storage.com/omf_spinner-kJHNCWmomylWAot0BVdUYw6NJZ4nl5.png"
+      ]
+    },
+    {
+      "index": "03",
+      "titre": "Optimisation Site Web - SEO, Vitesse, Sémantique",
+      "github": "https://github.com/pierre-antoine-vairon/OCR-Projet-P4--La-Panthere--SEO",
+      "description": "Optimisation complète d'un site web existant pour améliorer le référencement SEO, la vitesse de chargement, l'accessibilité, et la sémantique. Intégration des meilleures pratiques pour optimiser le classement dans les moteurs de recherche.",
+      "tags": ["SEO", "Optimisation", "Webdesign", "HTML", "CSS"],
+      "fonctionnalités": [
+        "Analyse détaillée de l'état actuel du site en termes de SEO, accessibilité, et vitesse de chargement.",
+        "Identification des parties du site non optimisées avec justification et recommandations basées sur des bonnes pratiques.",
+        "Sélection d'au moins 10 recommandations prioritaires pour améliorer le site.",
+        "Mise en œuvre des recommandations pour l'optimisation du contenu et du code source.",
+        "Garantir la conformité W3C pour HTML et CSS après les modifications.",
+        "Comparaison des résultats avant et après l'optimisation, en mettant l'accent sur la vitesse de chargement.",
+        "Documentation complète incluant le code source de la version améliorée du site."
+      ],
+      "étapes": [
+        "Analyser l'état actuel du site pour SEO, accessibilité, et vitesse de chargement.",
+        "Sélectionner au moins 10 recommandations prioritaires pour l'optimisation.",
+        "Mettre en œuvre les recommandations pour améliorer le site.",
+        "Garantir la conformité W3C pour HTML et CSS après les modifications.",
+        "Comparer les résultats avant et après l'optimisation, en se concentrant sur la vitesse de chargement."
+      ],
+      "imageAccueil": "/img/la_panthere/accueil.png",
+      "imageIllustration": [
+        "/img/la_panthere/1_titre.png",
+        "/img/la_panthere/2_focus.png",
+        "/img/la_panthere/3_footer.png",
+        "/img/la_panthere/4_image_texte.png",
+        "/img/la_panthere/5_description_alt.png",
+        "/img/la_panthere/6_optimisation_image.png",
+        "/img/la_panthere/7_ratio_couleur.png",
+        "/img/la_panthere/10_optimisation_vitesse.png"
+      ]
+    },
+    {
+      "index": "04",
+      "titre": "Site E-commerce Kanap - Implémentation Dynamique",
+      "github": "https://github.com/pierre-antoine-vairon/P5-Dev-Web-Kanap",
+      "description": "Implémentation dynamique du site e-commerce Kanap en utilisant JavaScript pur pour unifier les éléments de l'API dans les différentes pages web. Plan de test d'acceptation mis en place pour vérifier les fonctionnalités du site.",
+      "tags": ["JavaScript", "Site E-commerce", "API", "Test d'Acceptation"],
+      "étapes": [
+        "Prendre en main les maquettes HTML / CSS",
+        "Manipuler l’API",
+        "Insérer les produits dans la page d’accueil",
+        "Faire le lien entre un produit de la page d’accueil et la page Produit",
+        "Récupérer l’id du produit à afficher",
+        "Insérer un produit et ses détails dans la page Produit",
+        "Ajouter des produits dans le panier",
+        "Afficher un tableau récapitulatif des achats dans la page Panier",
+        "Gérer la modification et la suppression de produits dans la page Panier",
+        "Passer la commande",
+        "Afficher le numéro de commande",
+        "Mettre en place le plan de test d’acceptation"
+      ],
+      "fonctionnalités": [
+        "Unification des éléments de l'API dans les pages web avec JavaScript.",
+        "Affichage dynamique des produits de l'API sur la page d'accueil.",
+        "Navigation entre la page d'accueil et la page Produit avec prise en compte des produits sélectionnés.",
+        "Gestion dynamique des ajouts et des modifications de produits dans le panier.",
+        "Validation de la commande avec saisie des coordonnées de l'utilisateur.",
+        "Affichage du numéro de commande après confirmation de la commande."
+      ],
+      "imageAccueil": "/img/kanap/accueil.png",
+      "imageIllustration": [
+        "/img/kanap/home.png",
+        "/img/kanap/produit.png",
+        "/img/kanap/panier.png",
+        "/img/kanap/commande.png"
       ]
     }
   ]
